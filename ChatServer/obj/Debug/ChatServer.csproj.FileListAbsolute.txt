@@ -1,0 +1,10 @@
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\bin\Debug\ChatServer.exe.config
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\bin\Debug\ChatServer.exe
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\bin\Debug\ChatServer.pdb
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\obj\Debug\ChatServer.csproj.AssemblyReference.cache
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\obj\Debug\ChatServer.Form1.resources
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\obj\Debug\ChatServer.Properties.Resources.resources
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\obj\Debug\ChatServer.csproj.GenerateResource.cache
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\artur\Desktop\Projects C,C++,C#\chat-server-sockets\ChatServer\obj\Debug\ChatServer.pdb
