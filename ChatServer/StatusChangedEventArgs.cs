@@ -15,7 +15,7 @@ namespace ChatServer
         //Property to return and define a event message
         public string EventMessage
         {
-            get { return EventMessage; }
+            get { return EventMsg; }
             set { EventMsg = value; }
         }
 

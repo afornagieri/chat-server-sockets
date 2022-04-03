@@ -58,6 +58,9 @@ namespace ChatServer
                 else if (currentUser == "Server")
                 {
                     swSender.WriteLine("0 | User already exists");
+                    swSender.Flush();
+                    CloseConnections();
+                    return;
                 }
                 else
                 {
@@ -67,31 +70,30 @@ namespace ChatServer
 
                     Server.AddUser(tcpClient, currentUser);
                 }
-
-                try
-                {
-                    while ((response = srSender.ReadLine()) != "")
-                    {
-                        if (response == null)
-                        {
-                            Server.RemoveUser(tcpClient);
-                        }
-                        else
-                        {
-                            Server.SendMessageToAll(currentUser, response);
-                        }
-                    }
-                }
-                catch
-                {
-                    Server.RemoveUser(tcpClient);
-                }
             }
             else
             {
                 CloseConnections();
             }
 
+            try
+            {
+                while ((response = srSender.ReadLine()) != "")
+                {
+                    if (response == null)
+                    {
+                        Server.RemoveUser(tcpClient);
+                    }
+                    else
+                    {
+                        Server.SendMessageToAll(currentUser, response);
+                    }
+                }
+            }
+            catch
+            {
+                Server.RemoveUser(tcpClient);
+            }
         }
     }
 }
